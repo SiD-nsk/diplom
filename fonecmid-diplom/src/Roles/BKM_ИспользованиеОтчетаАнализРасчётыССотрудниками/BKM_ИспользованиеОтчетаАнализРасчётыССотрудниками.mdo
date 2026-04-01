@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="94a1dbc7-9213-4646-8428-4c056f5774e1">
+  <name>BKM_ИспользованиеОтчетаАнализРасчётыССотрудниками</name>
+  <synonym>
+    <key>ru</key>
+    <value>BKM использование отчета анализ расчёты с сотрудниками</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e5ae62bf-26b2-42e8-8b5a-2b49f84624bc">
+  <producedTypes>
+    <objectType typeId="6dc8caf1-1f88-4856-851a-603400dbdadd" valueTypeId="b2847431-b003-48a3-bbe2-8ce0a090ddf1"/>
+    <refType typeId="fef4a2fd-cff4-4669-93f3-a0283356fdf1" valueTypeId="cbd14430-69eb-4a03-8bdd-62365a5d6836"/>
+    <selectionType typeId="ab99738e-bf04-44d0-a0ca-0768cf93ba59" valueTypeId="44462ccd-e38c-47ce-be44-25de5f9d11ad"/>
+    <listType typeId="20a38672-c0f1-4b52-80a8-d5e3210286ff" valueTypeId="d093a2d1-bb1c-4ed0-aa83-d2cc0d3ef479"/>
+    <managerType typeId="7fd56316-dae7-4e95-870b-45d21a36f9c6" valueTypeId="d07848d2-db02-4934-b0cf-e3181897ae0d"/>
+  </producedTypes>
+  <name>BKM_ГрафикиРабот</name>
+  <synonym>
+    <key>ru</key>
+    <value>Графики работ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.BKM_ГрафикиРабот.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.BKM_ГрафикиРабот.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="1d86ad31-e55f-4a62-a9f2-7d51dcc9a5b9">
+      <name>ОтпускКалендарныеДни</name>
+      <description>Отпуск календарные дни</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

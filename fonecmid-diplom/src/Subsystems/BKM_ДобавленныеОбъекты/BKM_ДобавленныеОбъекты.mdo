@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="86f546b1-21a7-4d25-8dbd-3872a0cf399e">
+  <name>BKM_ДобавленныеОбъекты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавленные объекты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>ScheduledJob.BKM_ОтправкаСообщенийВТелеграм</content>
+  <content>Catalog.BKM_Сотрудники</content>
+  <content>AccumulationRegister.BKM_ВыполненныеКлиентуРаботы</content>
+  <content>AccumulationRegister.BKM_ВыполненныеСотрудникомРаботы</content>
+  <content>AccumulationRegister.BKM_ВзаиморасчетыССотрудниками</content>
+  <content>InformationRegister.BKM_ГрафикиРабот</content>
+  <content>InformationRegister.BKM_УсловияОплатыСотрудников</content>
+  <content>InformationRegister.BKM_СведенияОбОтпусках</content>
+  <content>ChartOfCalculationTypes.BKM_ДополнительныеНачисления</content>
+  <content>ChartOfCalculationTypes.BKM_ОсновныеНачисления</content>
+  <content>DataProcessor.BKM_МассовоеСозданиеАктов</content>
+  <content>DataProcessor.BKM_ЗаполнениеГрафикаРабот</content>
+  <content>Report.BKM_ВыработкаCпециалистов</content>
+  <content>Report.BKM_АнализВыставленныхАктов</content>
+  <content>Report.BKM_РасчётыССотрудниками</content>
+  <content>Report.BKM_РасходЗапланированныхОтпусков</content>
+  <content>Document.BKM_ОбслуживаниеКлиентов</content>
+  <content>Document.BKM_НачислениеЗаработнойПлаты</content>
+  <content>Document.BKM_НачислениеФиксированнойПремии</content>
+  <content>Document.BKM_ВыплатаЗарплаты</content>
+  <content>Document.BKM_ГрафикОтпусков</content>
+  <content>Catalog.BKM_ОбслуживаниеКлиентовПрисоединенныеФайлы</content>
+  <content>Catalog.BKM_УведомленияТелеграмБоту</content>
+  <content>Catalog.BKM_ГрафикиРабот</content>
+  <content>Catalog.BKM_Подразделения</content>
+  <content>CommandGroup.BKM_Документы</content>
+  <content>CommandGroup.BKM_Справочники</content>
+  <content>CommandGroup.BKM_РегистрыСведений</content>
+  <content>CommandGroup.BKM_РегистрыНакопления</content>
+  <content>CommandGroup.BKM_РегистрыРассчета</content>
+  <content>CommandGroup.BKM_Обработки</content>
+  <content>CalculationRegister.BKM_ДополнительныеНачисления</content>
+  <content>CalculationRegister.BKM_ОсновныеНачисления</content>
+  <content>CalculationRegister.BKM_Удержания</content>
+  <content>ChartOfCalculationTypes.BKM_Удержания</content>
+</mdclass:Subsystem>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e9db8076-60ce-41d7-b672-ed37bb50d424">
+  <name>BKM_ДобавлениеИзменениеДокументаНачисленияЗаработнойПлаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>BKM добавление изменение документа начисления заработной платы</value>
+  </synonym>
+</mdclass:Role>
