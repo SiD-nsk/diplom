@@ -23,4 +23,7 @@
   <content>CommandGroup.BKM_РегистрыНакопления</content>
   <content>CommandGroup.BKM_РегистрыРассчета</content>
   <content>CommandGroup.BKM_Обработки</content>
+  <content>Document.РеализацияТоваровУслуг</content>
+  <content>Catalog.ДоговорыКонтрагентов</content>
+  <content>Catalog.Контрагенты</content>
 </mdclass:Subsystem>

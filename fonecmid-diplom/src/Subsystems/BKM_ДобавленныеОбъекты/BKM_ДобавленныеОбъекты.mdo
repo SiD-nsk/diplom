@@ -42,4 +42,11 @@
   <content>CalculationRegister.BKM_ОсновныеНачисления</content>
   <content>CalculationRegister.BKM_Удержания</content>
   <content>ChartOfCalculationTypes.BKM_Удержания</content>
+  <content>Document.РеализацияТоваровУслуг</content>
+  <content>Catalog.ДоговорыКонтрагентов</content>
+  <content>Constant.BKM_НоменклатураАбонентскаяПлата</content>
+  <content>Constant.BKM_ТокенУправленияТБотом</content>
+  <content>Constant.BKM_ИдентификаторГруппыОповещения</content>
+  <content>Constant.BKM_НоменклатураРаботыСпециалиста</content>
+  <content>Constant.BKM_ГрафикОтпуска</content>
 </mdclass:Subsystem>
