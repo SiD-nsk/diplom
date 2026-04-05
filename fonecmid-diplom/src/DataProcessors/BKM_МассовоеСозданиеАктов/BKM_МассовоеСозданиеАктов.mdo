@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="63eaec5f-3b5b-4726-b5a4-f580600b4e15">
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="80832207-b4f2-4f87-86d2-7682cc756d6a">
   <producedTypes>
-    <objectType typeId="518205ab-0cb1-4411-9769-798bd6d4ef4f" valueTypeId="6f8a9984-a810-4691-8adc-c649a94c1c77"/>
-    <managerType typeId="16d40328-3dcb-494c-9bf2-29f25f195d65" valueTypeId="bc5966d1-f387-46a2-ac59-c6bd90edf53d"/>
+    <objectType typeId="3d2a395a-4fc7-4b70-839b-6229fedac91e" valueTypeId="f21fc31d-814c-4c2a-8360-6cc259da2c02"/>
+    <managerType typeId="582f05dc-39c7-45c2-99fd-d775acd8775e" valueTypeId="304e7951-0832-49af-9098-acb91a5ec452"/>
   </producedTypes>
   <name>BKM_МассовоеСозданиеАктов</name>
   <synonym>
@@ -11,7 +11,7 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.BKM_МассовоеСозданиеАктов.Form.Форма</defaultForm>
-  <attributes uuid="f7d7808f-6d96-41a1-9a0f-c0e36a041a95">
+  <attributes uuid="a0e4e684-b92e-4ce3-a8b5-b9374f44a6de">
     <name>Период</name>
     <synonym>
       <key>ru</key>
@@ -23,10 +23,10 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
-  <tabularSections uuid="96c0192a-30ae-4685-9e93-947cb087abfa">
+  <tabularSections uuid="ae65d7d4-0966-4114-bc0e-27f269a78c44">
     <producedTypes>
-      <objectType typeId="0802192b-ceb0-4611-993d-8fe8765e753e" valueTypeId="f9538d7e-1269-45b1-9bb4-0f7f9158b32c"/>
-      <rowType typeId="cb766154-eb06-46cd-866b-86e3fee46efd" valueTypeId="27f4105b-5036-4133-bbcc-33ef4c49b7e8"/>
+      <objectType typeId="b7aec8e7-3033-4f12-a852-099a8b5d5bab" valueTypeId="2e703795-98b3-4711-b090-a29c8e0d0606"/>
+      <rowType typeId="602a67f8-9063-4efb-bbf0-4cdef9d4ed18" valueTypeId="c9710438-84c9-4041-b792-bf37060fec94"/>
     </producedTypes>
     <name>СписокДоговоровИРеализаций</name>
     <synonym>
@@ -41,7 +41,7 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
     </standardAttributes>
-    <attributes uuid="a4aa7cdd-409a-4ff6-a3c5-28f044754d55">
+    <attributes uuid="ced9936c-8528-4a84-9e30-415897a8b854">
       <name>Договор</name>
       <synonym>
         <key>ru</key>
@@ -54,7 +54,7 @@
       <maxValue xsi:type="core:UndefinedValue"/>
       <fillValue xsi:type="core:UndefinedValue"/>
     </attributes>
-    <attributes uuid="2fc2f27f-a4ef-47c2-a705-eb83e53bffc9">
+    <attributes uuid="34e5a0b6-f872-4727-a245-5b375a11c8f5">
       <name>Реализация</name>
       <synonym>
         <key>ru</key>
@@ -68,7 +68,7 @@
       <fillValue xsi:type="core:UndefinedValue"/>
     </attributes>
   </tabularSections>
-  <forms uuid="eaec4950-3bd3-4958-8554-d50a8af4d669">
+  <forms uuid="86b698dd-a361-4b84-83d3-e2aba6b80b9b">
     <name>Форма</name>
     <synonym>
       <key>ru</key>

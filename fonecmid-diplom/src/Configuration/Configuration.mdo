@@ -1349,8 +1349,8 @@
   <dataProcessors>DataProcessor.Сканирование</dataProcessors>
   <dataProcessors>DataProcessor.УдалениеПомеченныхОбъектов</dataProcessors>
   <dataProcessors>DataProcessor.УправлениеИтогамиИАгрегатами</dataProcessors>
-  <dataProcessors>DataProcessor.BKM_МассовоеСозданиеАктов</dataProcessors>
   <dataProcessors>DataProcessor.BKM_ЗаполнениеГрафикаРабот</dataProcessors>
+  <dataProcessors>DataProcessor.BKM_МассовоеСозданиеАктов</dataProcessors>
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанных</informationRegisters>
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанныхОбластейДанных</informationRegisters>
   <informationRegisters>InformationRegister.ВерсииПодсистем</informationRegisters>

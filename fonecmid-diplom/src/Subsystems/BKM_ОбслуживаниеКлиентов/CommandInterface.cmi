@@ -30,7 +30,7 @@
     </placementFragments>
     <placementFragments>
       <group>CommandGroup.BKM_Обработки</group>
-      <commands>DataProcessor.BKM_МассовоеСозданиеАктов.StandardCommand.Open</commands>
+      <commands>0:63eaec5f-3b5b-4726-b5a4-f580600b4e15</commands>
     </placementFragments>
   </commandsPlacement>
   <commandsOrder>
@@ -55,7 +55,7 @@
     </orderFragments>
     <orderFragments>
       <group>CommandGroup.BKM_Обработки</group>
-      <commands>DataProcessor.BKM_МассовоеСозданиеАктов.StandardCommand.Open</commands>
+      <commands>0:63eaec5f-3b5b-4726-b5a4-f580600b4e15</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

@@ -67,7 +67,7 @@
     </placementFragments>
     <placementFragments>
       <group>CommandGroup.BKM_Обработки</group>
-      <commands>DataProcessor.BKM_МассовоеСозданиеАктов.StandardCommand.Open</commands>
+      <commands>0:63eaec5f-3b5b-4726-b5a4-f580600b4e15</commands>
       <commands>DataProcessor.BKM_ЗаполнениеГрафикаРабот.StandardCommand.Open</commands>
     </placementFragments>
   </commandsPlacement>
@@ -113,7 +113,7 @@
     <orderFragments>
       <group>CommandGroup.BKM_Обработки</group>
       <commands>DataProcessor.BKM_ЗаполнениеГрафикаРабот.StandardCommand.Open</commands>
-      <commands>DataProcessor.BKM_МассовоеСозданиеАктов.StandardCommand.Open</commands>
+      <commands>0:63eaec5f-3b5b-4726-b5a4-f580600b4e15</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

@@ -11,7 +11,6 @@
   <content>AccumulationRegister.BKM_ВыполненныеКлиентуРаботы</content>
   <content>AccumulationRegister.BKM_ВыполненныеСотрудникомРаботы</content>
   <content>AccumulationRegister.BKM_ВзаиморасчетыССотрудниками</content>
-  <content>DataProcessor.BKM_МассовоеСозданиеАктов</content>
   <content>Report.BKM_ВыработкаCпециалистов</content>
   <content>Report.BKM_АнализВыставленныхАктов</content>
   <content>Document.BKM_ОбслуживаниеКлиентов</content>
@@ -26,4 +25,5 @@
   <content>Document.РеализацияТоваровУслуг</content>
   <content>Catalog.ДоговорыКонтрагентов</content>
   <content>Catalog.Контрагенты</content>
+  <content>DataProcessor.BKM_МассовоеСозданиеАктов</content>
 </mdclass:Subsystem>

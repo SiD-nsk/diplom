@@ -17,7 +17,6 @@
   <content>InformationRegister.BKM_СведенияОбОтпусках</content>
   <content>ChartOfCalculationTypes.BKM_ДополнительныеНачисления</content>
   <content>ChartOfCalculationTypes.BKM_ОсновныеНачисления</content>
-  <content>DataProcessor.BKM_МассовоеСозданиеАктов</content>
   <content>DataProcessor.BKM_ЗаполнениеГрафикаРабот</content>
   <content>Report.BKM_ВыработкаCпециалистов</content>
   <content>Report.BKM_АнализВыставленныхАктов</content>
@@ -49,4 +48,5 @@
   <content>Constant.BKM_ИдентификаторГруппыОповещения</content>
   <content>Constant.BKM_НоменклатураРаботыСпециалиста</content>
   <content>Constant.BKM_ГрафикОтпуска</content>
+  <content>DataProcessor.BKM_МассовоеСозданиеАктов</content>
 </mdclass:Subsystem>
