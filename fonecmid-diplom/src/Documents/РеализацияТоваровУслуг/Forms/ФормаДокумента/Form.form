@@ -240,7 +240,7 @@
       </items>
       <items xsi:type="form:FormField">
         <name>Договор</name>
-        <id>22</id>
+        <id>166</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -251,7 +251,7 @@
         </dataPath>
         <extendedTooltip>
           <name>ДоговорРасширеннаяПодсказка</name>
-          <id>24</id>
+          <id>168</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -261,11 +261,11 @@
         </extendedTooltip>
         <contextMenu>
           <name>ДоговорКонтекстноеМеню</name>
-          <id>23</id>
+          <id>167</id>
           <autoFill>true</autoFill>
         </contextMenu>
         <type>InputField</type>
-        <editMode>EnterOnInput</editMode>
+        <editMode>Enter</editMode>
         <showInHeader>true</showInHeader>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
