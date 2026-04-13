@@ -260,7 +260,6 @@
     </contentCacheItem>
     <autoText>true</autoText>
   </series>
-  <drawEmpty>true</drawEmpty>
   <timeScale>
     <levels>
       <measure>Month</measure>

@@ -109,7 +109,7 @@
     <name>ФормаАнализГрафика</name>
     <synonym>
       <key>ru</key>
-      <value>ФормаАнализГрафика</value>
+      <value>Анализ Графика Отпусков</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
