@@ -200,6 +200,14 @@
       <code xsi:type="core:StringValue">
         <value></value>
       </code>
+      <base>ChartOfCalculationTypes.BKM_ОсновныеНачисления.Оклад</base>
+      <base>ChartOfCalculationTypes.BKM_ОсновныеНачисления.Отпуск</base>
+      <base>ChartOfCalculationTypes.BKM_ДополнительныеНачисления.ПремияПроцентом</base>
+      <base>ChartOfCalculationTypes.BKM_ДополнительныеНачисления.ПремияФиксированная</base>
+      <leading>ChartOfCalculationTypes.BKM_ОсновныеНачисления.Оклад</leading>
+      <leading>ChartOfCalculationTypes.BKM_ОсновныеНачисления.Отпуск</leading>
+      <leading>ChartOfCalculationTypes.BKM_ДополнительныеНачисления.ПремияПроцентом</leading>
+      <leading>ChartOfCalculationTypes.BKM_ДополнительныеНачисления.ПремияФиксированная</leading>
     </items>
   </predefined>
 </mdclass:ChartOfCalculationTypes>

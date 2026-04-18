@@ -1432,9 +1432,9 @@
   <accumulationRegisters>AccumulationRegister.BKM_ВыполненныеСотрудникомРаботы</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.BKM_ВзаиморасчетыССотрудниками</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>
-  <chartsOfCalculationTypes>ChartOfCalculationTypes.BKM_Удержания</chartsOfCalculationTypes>
-  <chartsOfCalculationTypes>ChartOfCalculationTypes.BKM_ДополнительныеНачисления</chartsOfCalculationTypes>
   <chartsOfCalculationTypes>ChartOfCalculationTypes.BKM_ОсновныеНачисления</chartsOfCalculationTypes>
+  <chartsOfCalculationTypes>ChartOfCalculationTypes.BKM_ДополнительныеНачисления</chartsOfCalculationTypes>
+  <chartsOfCalculationTypes>ChartOfCalculationTypes.BKM_Удержания</chartsOfCalculationTypes>
   <calculationRegisters>CalculationRegister.BKM_ОсновныеНачисления</calculationRegisters>
   <calculationRegisters>CalculationRegister.BKM_ДополнительныеНачисления</calculationRegisters>
   <calculationRegisters>CalculationRegister.BKM_Удержания</calculationRegisters>

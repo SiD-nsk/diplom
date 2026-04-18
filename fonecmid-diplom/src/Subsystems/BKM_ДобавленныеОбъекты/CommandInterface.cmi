@@ -2,6 +2,84 @@
 <cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
   <commandsVisibility>
     <visibilityFragments>
+      <command>Document.BKM_ВыплатаЗарплаты.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Document.BKM_ГрафикОтпусков.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Document.BKM_НачислениеЗаработнойПлаты.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Document.BKM_НачислениеФиксированнойПремии.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Document.BKM_ОбслуживаниеКлиентов.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Document.РеализацияТоваровУслуг.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Catalog.BKM_Сотрудники.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Catalog.BKM_ГрафикиРабот.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Catalog.BKM_Подразделения.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Catalog.BKM_УведомленияТелеграмБоту.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Catalog.ДоговорыКонтрагентов.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>InformationRegister.BKM_УсловияОплатыСотрудников.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>InformationRegister.BKM_ГрафикиРабот.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
       <command>InformationRegister.BKM_СведенияОбОтпусках.StandardCommand.OpenList</command>
       <visible>
         <common>true</common>
@@ -25,16 +103,38 @@
         <common>true</common>
       </visible>
     </visibilityFragments>
+    <visibilityFragments>
+      <command>ChartOfCalculationTypes.BKM_ДополнительныеНачисления.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>ChartOfCalculationTypes.BKM_ОсновныеНачисления.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>ChartOfCalculationTypes.BKM_Удержания.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Document.РеализацияТоваровУслуг.StandardCommand.Create</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>DataProcessor.BKM_ЗаполнениеГрафикаРабот.StandardCommand.Open</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
   </commandsVisibility>
   <commandsPlacement>
-    <placementFragments>
-      <group>CommandGroup.BKM_Справочники</group>
-      <commands>Catalog.BKM_Сотрудники.StandardCommand.OpenList</commands>
-      <commands>Catalog.BKM_ГрафикиРабот.StandardCommand.OpenList</commands>
-      <commands>Catalog.BKM_Подразделения.StandardCommand.OpenList</commands>
-      <commands>Catalog.BKM_УведомленияТелеграмБоту.StandardCommand.OpenList</commands>
-      <commands>Catalog.ДоговорыКонтрагентов.StandardCommand.OpenList</commands>
-    </placementFragments>
     <placementFragments>
       <group>CommandGroup.BKM_Документы</group>
       <commands>Document.BKM_ВыплатаЗарплаты.StandardCommand.OpenList</commands>
@@ -45,19 +145,18 @@
       <commands>Document.РеализацияТоваровУслуг.StandardCommand.OpenList</commands>
     </placementFragments>
     <placementFragments>
+      <group>CommandGroup.BKM_Справочники</group>
+      <commands>Catalog.BKM_Сотрудники.StandardCommand.OpenList</commands>
+      <commands>Catalog.BKM_ГрафикиРабот.StandardCommand.OpenList</commands>
+      <commands>Catalog.BKM_Подразделения.StandardCommand.OpenList</commands>
+      <commands>Catalog.BKM_УведомленияТелеграмБоту.StandardCommand.OpenList</commands>
+      <commands>Catalog.ДоговорыКонтрагентов.StandardCommand.OpenList</commands>
+    </placementFragments>
+    <placementFragments>
       <group>CommandGroup.BKM_РегистрыСведений</group>
       <commands>InformationRegister.BKM_УсловияОплатыСотрудников.StandardCommand.OpenList</commands>
       <commands>InformationRegister.BKM_ГрафикиРабот.StandardCommand.OpenList</commands>
       <commands>InformationRegister.BKM_СведенияОбОтпусках.StandardCommand.OpenList</commands>
-    </placementFragments>
-    <placementFragments>
-      <group>CommandGroup.BKM_РегистрыРассчета</group>
-      <commands>ChartOfCalculationTypes.BKM_ДополнительныеНачисления.StandardCommand.OpenList</commands>
-      <commands>ChartOfCalculationTypes.BKM_ОсновныеНачисления.StandardCommand.OpenList</commands>
-      <commands>ChartOfCalculationTypes.BKM_Удержания.StandardCommand.OpenList</commands>
-      <commands>CalculationRegister.BKM_ДополнительныеНачисления.StandardCommand.OpenList</commands>
-      <commands>CalculationRegister.BKM_ОсновныеНачисления.StandardCommand.OpenList</commands>
-      <commands>CalculationRegister.BKM_Удержания.StandardCommand.OpenList</commands>
     </placementFragments>
     <placementFragments>
       <group>CommandGroup.BKM_РегистрыНакопления</group>
@@ -66,21 +165,18 @@
       <commands>AccumulationRegister.BKM_ВыполненныеСотрудникомРаботы.StandardCommand.OpenList</commands>
     </placementFragments>
     <placementFragments>
+      <group>CommandGroup.BKM_РегистрыРассчета</group>
+      <commands>ChartOfCalculationTypes.BKM_ДополнительныеНачисления.StandardCommand.OpenList</commands>
+      <commands>ChartOfCalculationTypes.BKM_ОсновныеНачисления.StandardCommand.OpenList</commands>
+      <commands>ChartOfCalculationTypes.BKM_Удержания.StandardCommand.OpenList</commands>
+    </placementFragments>
+    <placementFragments>
       <group>CommandGroup.BKM_Обработки</group>
-      <commands>0:63eaec5f-3b5b-4726-b5a4-f580600b4e15</commands>
       <commands>DataProcessor.BKM_ЗаполнениеГрафикаРабот.StandardCommand.Open</commands>
     </placementFragments>
   </commandsPlacement>
   <commandsOrder>
     <orderFragments>
-      <group>CommandGroup.BKM_Справочники</group>
-      <commands>Catalog.BKM_Сотрудники.StandardCommand.OpenList</commands>
-      <commands>Catalog.BKM_ГрафикиРабот.StandardCommand.OpenList</commands>
-      <commands>Catalog.BKM_Подразделения.StandardCommand.OpenList</commands>
-      <commands>Catalog.BKM_УведомленияТелеграмБоту.StandardCommand.OpenList</commands>
-      <commands>Catalog.ДоговорыКонтрагентов.StandardCommand.OpenList</commands>
-    </orderFragments>
-    <orderFragments>
       <group>CommandGroup.BKM_Документы</group>
       <commands>Document.BKM_ВыплатаЗарплаты.StandardCommand.OpenList</commands>
       <commands>Document.BKM_ГрафикОтпусков.StandardCommand.OpenList</commands>
@@ -90,19 +186,18 @@
       <commands>Document.РеализацияТоваровУслуг.StandardCommand.OpenList</commands>
     </orderFragments>
     <orderFragments>
+      <group>CommandGroup.BKM_Справочники</group>
+      <commands>Catalog.BKM_Сотрудники.StandardCommand.OpenList</commands>
+      <commands>Catalog.BKM_ГрафикиРабот.StandardCommand.OpenList</commands>
+      <commands>Catalog.BKM_Подразделения.StandardCommand.OpenList</commands>
+      <commands>Catalog.BKM_УведомленияТелеграмБоту.StandardCommand.OpenList</commands>
+      <commands>Catalog.ДоговорыКонтрагентов.StandardCommand.OpenList</commands>
+    </orderFragments>
+    <orderFragments>
       <group>CommandGroup.BKM_РегистрыСведений</group>
       <commands>InformationRegister.BKM_УсловияОплатыСотрудников.StandardCommand.OpenList</commands>
       <commands>InformationRegister.BKM_ГрафикиРабот.StandardCommand.OpenList</commands>
       <commands>InformationRegister.BKM_СведенияОбОтпусках.StandardCommand.OpenList</commands>
-    </orderFragments>
-    <orderFragments>
-      <group>CommandGroup.BKM_РегистрыРассчета</group>
-      <commands>ChartOfCalculationTypes.BKM_ДополнительныеНачисления.StandardCommand.OpenList</commands>
-      <commands>ChartOfCalculationTypes.BKM_ОсновныеНачисления.StandardCommand.OpenList</commands>
-      <commands>ChartOfCalculationTypes.BKM_Удержания.StandardCommand.OpenList</commands>
-      <commands>CalculationRegister.BKM_ДополнительныеНачисления.StandardCommand.OpenList</commands>
-      <commands>CalculationRegister.BKM_ОсновныеНачисления.StandardCommand.OpenList</commands>
-      <commands>CalculationRegister.BKM_Удержания.StandardCommand.OpenList</commands>
     </orderFragments>
     <orderFragments>
       <group>CommandGroup.BKM_РегистрыНакопления</group>
@@ -111,9 +206,14 @@
       <commands>AccumulationRegister.BKM_ВыполненныеСотрудникомРаботы.StandardCommand.OpenList</commands>
     </orderFragments>
     <orderFragments>
+      <group>CommandGroup.BKM_РегистрыРассчета</group>
+      <commands>ChartOfCalculationTypes.BKM_ДополнительныеНачисления.StandardCommand.OpenList</commands>
+      <commands>ChartOfCalculationTypes.BKM_ОсновныеНачисления.StandardCommand.OpenList</commands>
+      <commands>ChartOfCalculationTypes.BKM_Удержания.StandardCommand.OpenList</commands>
+    </orderFragments>
+    <orderFragments>
       <group>CommandGroup.BKM_Обработки</group>
       <commands>DataProcessor.BKM_ЗаполнениеГрафикаРабот.StandardCommand.Open</commands>
-      <commands>0:63eaec5f-3b5b-4726-b5a4-f580600b4e15</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>
